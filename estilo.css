@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+
+header {
+    background: linear-gradient(to right, #4a90e2, #50e3c2);
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffdd57; 
+}
+
+h1 {
+    margin-bottom: 15px;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #4a90e2;
+    margin: 20px 0 10px;
+    font-size: 1.8em;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #4a90e2;
+    color: white;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 5px 0;
+}
+
+blockquote {
+    border-left: 4px solid #50e3c2;
+    padding-left: 20px;
+    margin: 10px 0;
+    font-style: italic;
+    color: #555;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Estilo para las imágenes */
+img {
+    display: block;        
+    margin: 20px auto;     
+    max-width: 70%;        
+    height: auto;       
+}
+
+a {
+    color: #4a90e2;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #50e3c2;
+}
